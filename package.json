@@ -1,0 +1,23 @@
+{
+  "name": "json-server",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "json-server --watch server.json --port 9000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/shortid": "^2.2.0",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "shortid": "^2.2.16"
+  }
+}
